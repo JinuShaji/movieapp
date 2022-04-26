@@ -1,0 +1,35 @@
+.card{
+    
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.crd1{
+    margin-left: 10px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    
+}
+.small{
+    max-width: 180px;
+    height: 200px;
+    margin-left: 10px;
+}
+.card::-webkit-scrollbar{
+    display: none;
+}
+.img{
+    max-width: 200px;
+    height: 250px;
+    margin-left: 10px;
+}
+.title{
+    color: white;
+}
+.ttl{
+    width: 100%;
+}
